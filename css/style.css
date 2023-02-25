@@ -1,0 +1,48 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: gray;
+    padding:20px 20px ;
+}
+.navMenu{
+    color: red !important;
+}
+
+li{
+    font-size: 30px;
+    color: aliceblue !important ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#test{
+    color: blue !important;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 47, 165);
+}
+
+.title img{
+    width: 100%;
+   
+}
+h2 + img{
+    border-style: solid;
+}
+
+h2{
+    color: blueviolet;
+}
+table{
+    width: 50%;
+ text-align: center;
+ margin-left: 25%;
+
+}
+
+.fa-brands{
+    font-size: 1000px;
+    color: brown;
+}

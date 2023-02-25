@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.Logo {
+  width: 268px;
+  height: 33px;
+  margin-top: 10px;
+}
+.subMenu {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blueviolet; */
+}
+li,
+.Logo:hover {
+  cursor: pointer;
+}
+.mainMenu {
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-around;
+  width: 251.65px;
+}
+li {
+  list-style: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ababab;
+}
+li:hover {
+  color: #00bfa5;
+}
+.mainMenuItem:hover .subMenu {
+  display: block;
+}
+
+.subMenu {
+  position: absolute;
+  line-height: 18px;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  width: 190px;
+  height: 220px;
+  margin-left: -110px;
+}
+.subMenuItem {
+  padding: 6px 0px 6px 15px;
+  margin-left: -39.9px;
+  font-size: 16px;
+}
+.subMenuItem:hover {
+  background-color: #f6f8f8;
+}
+
+#Marketing {
+  margin-top: 10px;
+}
+.title {
+  text-align: center;
+  margin-top: 33px;
+}
+.title h1 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 44.2px;
+  color: #00bfa5;
+}
+.papra {
+  display: flex;
+  width: 1015px;
+  justify-content: space-around;
+  margin-left: 252px;
+}
+p {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #747474;
+  width: 477.5px;
+  height: 157.6px;
+}
